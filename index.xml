@@ -1,0 +1,99 @@
+<?xml-stylesheet href="style.css"?>
+<disco>
+    <parte>
+        <columna>
+
+        </columna>
+        <columna>
+            <artista>ARTISTA:</artista>
+            <titulo>TITULO:</titulo>
+            <sello>SELLO:</sello>
+            <referencia>REFERENCIA:</referencia>
+            <anio>AÑO:</anio>
+            <pais>PAIS:</pais>
+            <formato>FORMATO:</formato>
+            <genero>GENERO:</genero>
+            <estilo>ESTILO:</estilo>
+            <observaciones>OBSERVACIONES:</observaciones>
+        </columna>
+        <columna>
+            <artista>LOS PIOJOS</artista>
+            <titulo>Civilización</titulo>
+            <sello>RICARDO EN ESPAÑA</sello>
+            <referencia>12546-123</referencia>
+            <anio>2007</anio>
+            <pais>Argentina</pais>
+            <formato>CD - Compilacion</formato>
+            <genero>Rock and Roll, Hard Rock, Blues</genero>
+            <estilo>Rock Nacional</estilo>
+            <observaciones>Es una banda de rock argentino</observaciones>
+        </columna>
+    </parte>
+    <parte>
+        <album>
+            <cd>CD 1</cd>
+        </album>
+        <canciones>
+            <columna>
+                <numCancion>01</numCancion>
+                <numCancion>02</numCancion>
+                <numCancion>03</numCancion>
+                <numCancion>04</numCancion>
+                <numCancion>05</numCancion>
+                <numCancion>06</numCancion>
+                <numCancion>07</numCancion>
+                <numCancion>08</numCancion>
+                <numCancion>09</numCancion>
+                <numCancion>10</numCancion>
+                <numCancion>11</numCancion>
+                <numCancion>12</numCancion>
+                <numCancion>13</numCancion>
+                <numCancion>14</numCancion>
+                <numCancion>15</numCancion>
+                <numCancion>16</numCancion>
+                <numCancion>17</numCancion>
+                <numCancion>18</numCancion>
+            </columna>
+            <columna>
+                <nombreCancion>Bicho de ciudad - [05:19]</nombreCancion>
+                <nombreCancion>Tan solo - [04:40]</nombreCancion>
+                <nombreCancion>Astros - [04:19]</nombreCancion>
+                <nombreCancion>Pacífico - [04:43]</nombreCancion>
+                <nombreCancion>Civilización - [04:25]</nombreCancion>
+                <nombreCancion>Poison Arrow - [03:23]</nombreCancion>
+                <nombreCancion>Poison Arrow - [03:23]</nombreCancion>
+                <nombreCancion>Poison Arrow - [03:23]</nombreCancion>
+                <nombreCancion>Poison Arrow - [03:23]</nombreCancion>
+                <nombreCancion>Poison Arrow - [03:23]</nombreCancion>
+                <nombreCancion>Poison Arrow - [03:23]</nombreCancion>
+                <nombreCancion>Poison Arrow - [03:23]</nombreCancion>
+                <nombreCancion>Poison Arrow - [03:23]</nombreCancion>
+                <nombreCancion>Poison Arrow - [03:23]</nombreCancion>
+                <nombreCancion>Poison Arrow - [03:23]</nombreCancion>
+                <nombreCancion>Poison Arrow - [03:23]</nombreCancion>
+                <nombreCancion>Poison Arrow - [03:23]</nombreCancion>
+                <nombreCancion>Poison Arrow - [03:23]</nombreCancion>
+            </columna>
+            <!-- <columna>
+                <duracion>3:23</duracion>
+                <duracion>3:23</duracion>
+                <duracion>3:23</duracion>
+                <duracion>3:23</duracion>
+                <duracion>3:23</duracion>
+                <duracion>3:23</duracion>
+                <duracion>3:23</duracion>
+                <duracion>3:23</duracion>
+                <duracion>3:23</duracion>
+                <duracion>3:23</duracion>
+                <duracion>3:23</duracion>
+                <duracion>3:23</duracion>
+                <duracion>3:23</duracion>
+                <duracion>3:23</duracion>
+                <duracion>3:23</duracion>
+                <duracion>3:23</duracion>
+                <duracion>3:23</duracion>
+                <duracion>3:23</duracion>
+            </columna> -->
+        </canciones>
+    </parte>
+</disco>

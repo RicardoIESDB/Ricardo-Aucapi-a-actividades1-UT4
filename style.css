@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
+
+disco {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(35deg, rgb(215, 9, 9), black);
+    font-family: "Lexend Giga", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+}
+
+parte:nth-child(1) {
+    display: flex;
+    justify-content: space-around;
+    min-height: 35vh;
+    min-width: auto;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+parte:nth-child(2) {
+    min-height: 65vh;
+    min-width: auto;
+}
+
+columna {
+    display: flex;
+    flex-direction: column;
+    height: 25vh;
+    gap: 0.25em;
+}
+
+/* Como hacer para que el contenedor se ajuste a la imagen? */
+parte>columna:nth-child(1) {
+    background-image: url(./logo-banda.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    min-height: 29.5vh;
+    /* min-height: 33.4vh; */
+    min-width: auto;
+    margin-left: 1.5em;
+}
+
+parte>columna:nth-child(1) {
+    flex-grow: 1;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+parte>columna:nth-child(2) {
+    flex-grow: 1;
+    align-items: flex-end;
+}
+
+parte>columna:nth-child(3) {
+    flex-grow: 3;
+    padding-left: .5em;
+}
+
+columna:nth-child(3)>artista {
+    color: yellow;
+    font-weight: bold;
+}
+
+columna:nth-child(3)>sello {
+    font-weight: bold;
+}
+
+canciones {
+    display: flex;
+}
+
+album, nombreCancion {
+    padding-left: 1em;
+}
+
+cd, numCancion {
+    font-weight: bold;
+    padding-left: .5em;
+}
+
+canciones>columna:nth-child(1) {
+    padding-left: 1em;
+    flex-grow: 1em;
+}
+
+canciones>columna:nth-child(2) {
+    flex-grow: 2;
+}
+
+numCancion:nth-child(2n-1), nombreCancion:nth-child(2n-1) {
+    background-color: rgb(32, 29, 29);
+}
+
+/* canciones>columna:nth-child(3) {
+    flex-grow: 1;
+} */
+
+/* duracion:nth-child(2n-1) {
+    background-color: gray;
+} */
