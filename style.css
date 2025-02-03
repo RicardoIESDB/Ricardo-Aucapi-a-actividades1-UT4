@@ -37,7 +37,8 @@ parte>columna:nth-child(1) {
     background-image: url(./logo-banda.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    /* background-size: contain; */
+    background-size: cover;
     min-height: 29.5vh;
     /* min-height: 33.4vh; */
     min-width: auto;
